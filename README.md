@@ -1,6 +1,6 @@
 [![EN](https://user-images.githubusercontent.com/9499881/33184537-7be87e86-d096-11e7-89bb-f3286f752bc6.png)](https://github.com/r57zone/LogitechWingmanArduinoPedals/) 
 [![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/LogitechWingmanArduinoPedals/blob/master/README.RU.md)
-&#8211; Other languages / Другие языки
+← Choose language | Выберите язык
 
 # Logitech WingMan с Arduino педалями
 Xbox emulator for Logitech WingMan wheel [with modified pedals](https://github.com/r57zone/XboxExternalPedals) changed to work via Arduino. If you have a regular steering wheel with pedals, then use [x360ce](https://www.x360ce.com/) to emulate an Xbox controller, if there are no pedals, then you can use this project, triggers can be emulated with the buttons on the steering wheel. Powered by [ViGEm](https://github.com/ViGEm) driver.
