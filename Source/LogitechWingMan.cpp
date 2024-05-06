@@ -154,24 +154,18 @@ void ExternalPedalsDInputSearch() {
 		ExternalPedalsJoyCaps.wNumButtons == 16) { // DualSense - 15, DigiJoy - 16
 		ExternalPedalsJoyIndex = JOYSTICKID1;
 		ExternalPedalsDInputConnected = true;
-
-		joyGetDevCaps(JOYSTICKID1, &ExternalPedalsJoyCaps, sizeof(ExternalPedalsJoyCaps));
 	} 
 	else if (joyGetPosEx(JOYSTICKID2, &ExternalPedalsJoyInfo) == JOYERR_NOERROR &&
 		joyGetDevCaps(JOYSTICKID2, &ExternalPedalsJoyCaps, sizeof(ExternalPedalsJoyCaps)) == JOYERR_NOERROR &&
 		ExternalPedalsJoyCaps.wNumButtons == 16) {
 		ExternalPedalsJoyIndex = JOYSTICKID2;
 		ExternalPedalsDInputConnected = true;
-
-		joyGetDevCaps(1, &ExternalPedalsJoyCaps, sizeof(ExternalPedalsJoyCaps));
 	}
 	else if (joyGetPosEx(2, &ExternalPedalsJoyInfo) == JOYERR_NOERROR && // Оказывается может быть джойстик 3
 		joyGetDevCaps(2, &ExternalPedalsJoyCaps, sizeof(ExternalPedalsJoyCaps)) == JOYERR_NOERROR &&
 		ExternalPedalsJoyCaps.wNumButtons == 16) {
 		ExternalPedalsJoyIndex = 2;
 		ExternalPedalsDInputConnected = true;
-
-		joyGetDevCaps(2, &ExternalPedalsJoyCaps, sizeof(ExternalPedalsJoyCaps));
 	}
 }
 
